@@ -1,0 +1,32 @@
+name:  SimplePvP
+version:  0.5
+main:  com.andy.SimplePvP
+
+commands:
+  pvphelp:
+    description: This is the help command.
+    usage: /<command>
+  pvpinfo:
+    descriptiom: Shows Information about the Plugin and the Developer
+    usage:  /<command>
+  pvphelp player:
+    description: Shows player Commands
+    usage:  /<command> player
+  pvphelp admin:
+    description: Shows admin Commands
+    usage:  /<command> admin
+  pvpjoin:
+    description:  Shows a Message
+    usage:  /<command>
+  pvpjoin red:
+    description:  joins Team blue
+    usage:  /<command> red
+  pvpjoin blue:
+    description:  joins Team red
+    usage:  /<command> blue
+  pvpleave:
+    description:  leaves the Arena
+    usage:  /<command>
+  pvpspectate:
+    description:  Let the Player spectate the Game
+    usage:  /<command>
