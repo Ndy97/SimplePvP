@@ -30,3 +30,18 @@ commands:
   pvpspectate:
     description:  Let the Player spectate the Game
     usage:  /<command>
+  pvpPosition:
+    description:  Set the Positions
+    usage:  /<command>
+  pvpPosition red:
+    description:  Set the Positions
+    usage:  /<command> red
+  pvpPosition blue:
+    description:  Set the Positions
+    usage:  /<command> blue
+  pvpPosition exit:
+    description:  Set the Positions
+    usage:  /<command> exit
+  pvpPosition spectate:
+    description:  Set the Positions
+    usage:  /<command> spectate
