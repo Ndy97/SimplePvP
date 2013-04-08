@@ -1,47 +1,53 @@
 name:  SimplePvP
-version:  0.5
+version:  1.9
 main:  com.andy.SimplePvP
 
 commands:
+  pvpkit:
+    description: Used to set a players Kit!
+    usage:  /<command> <kit>
+    permission:  simplepvp.kit
   pvphelp:
     description: This is the help command.
     usage: /<command>
+    permission:  simplepvp.help
   pvpinfo:
     descriptiom: Shows Information about the Plugin and the Developer
     usage:  /<command>
+    permission:  simplepvp.info
   pvphelp player:
     description: Shows player Commands
     usage:  /<command> player
+    permission:  simplepvp.help
   pvphelp admin:
     description: Shows admin Commands
     usage:  /<command> admin
+    permission:  simplepvp.help
   pvpjoin:
     description:  Shows a Message
     usage:  /<command>
+    permission:  simplepvp.join
   pvpjoin red:
     description:  joins Team blue
     usage:  /<command> red
+    permission:  simplepvp.join
   pvpjoin blue:
     description:  joins Team red
     usage:  /<command> blue
+    permission:  simplepvp.join
   pvpleave:
     description:  leaves the Arena
-    usage:  /<command>
+    usage:  /<command> <argument>
+    permission:  simplepvp.leave
   pvpspectate:
     description:  Let the Player spectate the Game
-    usage:  /<command>
-  pvpPosition:
+    usage:  /<command> <argument>
+    permission:  simplepvp.spectate
+  pvppos:
     description:  Set the Positions
-    usage:  /<command>
-  pvpPosition red:
+    usage:  /<command> <argument>
+    permission:  simplepvp.admin
+  pvpposdel:
     description:  Set the Positions
-    usage:  /<command> red
-  pvpPosition blue:
-    description:  Set the Positions
-    usage:  /<command> blue
-  pvpPosition exit:
-    description:  Set the Positions
-    usage:  /<command> exit
-  pvpPosition spectate:
-    description:  Set the Positions
-    usage:  /<command> spectate
+    usage:  /<command> <argument>
+    permission:  simplepvp.admin
